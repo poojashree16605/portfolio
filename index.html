@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pooja Shree — Data Science Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+      <div class="logo">Pooja Shree</div>
+
+      <div class="menu-icon" id="menu-icon">
+          ☰
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+</header>
+
+
+  <!-- subtle animated background -->
+  <canvas id="neural-bg"></canvas>
+
+  <main class="main-content">
+
+    <!-- HERO (full) -->
+    <section id="home" class="hero section fade-in">
+      <div class="hero-left">
+        <h1>Hi, I’m <span class="accent">Pooja Shree</span></h1>
+        <h3 class="subtitle">Data Analyst & AI Student</h3>
+        <p class="lead">
+          Transforming raw data meaningful insights that support informed decision-making.
+I work with data cleaning, feature understanding, and exploratory analysis to uncover patterns and trends.
+I build machine learning models for solving real-world problems in areas like fraud detection and customer behavior.
+My focus is on creating accurate, interpretable, and actionable insights that make a real impact.
+
+
+        </p>
+
+        <div class="contact-row">
+          <div><strong>Email:</strong> poojashreerevathi@gmail.com</div>
+          <div><strong>Phone:</strong> 9344918773</div>
+        </div>
+
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          <a class="btn btn-resume" href="resume .pdf" download>Download Resume</a>
+        </div>
+
+        <div class="socials">
+      
+          <a href="https://github.com/poojashree16605" target="_blank" title="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/poojashree-s16/" title="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="photo-wrap">
+          <img src="profile.jpg" alt="Pooja Shree" class="profile-photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT (full) -->
+    <section id="about" class="about-section fade-in">
+    <div class="about-wrapper">
+        <img src="profile.jpg" alt="Pooja Shree" class="about-img">
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am Pooja Shree, a B.Tech student specializing in Artificial Intelligence
+                and Data Science. I enjoy exploring data, identifying patterns, and transforming 
+                complex information into clear, meaningful insights.
+            </p>
+            <p>
+                My interests include data cleaning, exploratory data analysis (EDA), statistical 
+                understanding, visualization, and building machine learning models for tasks such 
+                as classification and prediction.
+            </p>
+            <p>
+                I aim to solve real-world problems using analytical thinking, structured methods, 
+                and reliable ML techniques. I am continuously improving my skills and pursuing a 
+                career in data analytics and machine learning.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS (with Read More modals) -->
+<section id="projects" class="section section-pad fade-in">
+  <h2 class="section-title center">Projects</h2>
+  <p class="section-sub muted center">Explore my machine learning and NLP work.</p>
+
+  <div class="projects-grid">
+    
+    <!-- PROJECT 1 -->
+    <article class="card">
+      <div class="card-icon">💳</div>
+      <h3>Credit Card Fraud Detection</h3>
+      <p class="muted">PCA + XGBoost pipeline to detect fraudulent transactions in imbalanced datasets.</p>
+      <div class="card-actions">
+        <button class="btn btn-primary-sm" onclick="openModal('modal-fraud')">Read More</button>
+       
+      </div>
+    </article>
+
+    <!-- PROJECT 2 -->
+    <article class="card">
+      <div class="card-icon">📊</div>
+      <h3>Customer Churn Analysis</h3>
+      <p class="muted">EDA + ML to identify churn patterns and retention insights.</p>
+      <div class="card-actions">
+        <button class="btn btn-primary-sm" onclick="openModal('modal-churn')">Read More</button>
+        
+      </div>
+    </article>
+
+    <!-- PROJECT 3 -->
+    <article class="card">
+      <div class="card-icon">📰</div>
+      <h3>Fake News Detection</h3>
+      <p class="muted">NLP model using TF–IDF and classifiers to detect fake news.</p>
+      <div class="card-actions">
+        <button class="btn btn-primary-sm" onclick="openModal('modal-fake')">Read More</button>
+        
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+    <!-- SKILLS (full) -->
+    <section id="skills" class="section section-pad fade-in">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-col">
+          <h4>Core Skills</h4>
+          <ul>
+            <li>Python programming</li>
+            <li>Machine learning algorithms</li>
+            <li>Exploratory Data Analysis (EDA)</li>
+            <li> model evaluation</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h4>Tools & Libraries</h4>
+          <ul>
+            <li>Pandas, NumPy</li>
+            <li>scikit-learn, TensorFlow</li>
+            <li>Matplotlib, Seaborn</li>
+            <li>SQL (MySQL), GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT (full) -->
+    <section id="contact" class="section section-pad fade-in">
+      <h2 class="section-title">Contact</h2>
+      <p class="muted">I'd love to hear about projects, internships or collaborations — get in touch.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h4>Email</h4>
+          <p>poojashreerevathi@gmail.com</p>
+          <h4>Phone</h4>
+          <p>+91 9344918773</p>
+          <div class="socials small">
+            <a href="https://github.com/poojashree16605" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/poojashree-s16/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" rows="6" placeholder="Message" required></textarea>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2025 Pooja Shree 
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- MODAL BACKDROP -->
+<div id="modal-backdrop" class="modal-backdrop" onclick="closeModal()"></div>
+
+<!-- FRAUD DETECTION MODAL -->
+<div id="modal-fraud" class="modal">
+  <div class="modal-content">
+    <span class="modal-close" onclick="closeModal()">✖</span>
+    <h2>Credit Card Fraud Detection</h2>
+    <p>This project focuses on identifying fraudulent credit card transactions using machine learning.</p>
+
+    <h4>🔍 Problem Statement</h4>
+    <p>Only 0.17% of transactions are fraud — making it a highly imbalanced dataset requiring careful handling.</p>
+
+    <h4>📘 Dataset</h4>
+    <p>European Credit Card Transactions Dataset (anonymized).</p>
+
+    <h4>🛠 Techniques Used</h4>
+    <ul>
+      <li>PCA dimensionality reduction</li>
+      <li>XGBoost classifier</li>
+      <li>SMOTE oversampling</li>
+      <li>Confusion matrix & AUC evaluation</li>
+    </ul>
+
+    <h4>📊 Results</h4>
+    <p>AUC score: <strong>0.97</strong></p>
+
+    <h4>💡 What I Learned</h4>
+    <p>How to handle imbalanced datasets, tune XGBoost, and evaluate models correctly using AUC.</p>
+
+    <a class="btn btn-primary" href="https://github.com/poojashree16605/credit-card-fraud-detection" target="_blank">View GitHub</a>
+  </div>
+</div>
+
+<!-- CHURN MODAL -->
+<div id="modal-churn" class="modal">
+  <div class="modal-content">
+    <span class="modal-close" onclick="closeModal()">✖</span>
+    <h2>Customer Churn Analysis</h2>
+    <p>This project predicts customer churn using statistical analysis and machine learning.</p>
+
+    <h4>🔍 Problem Statement</h4>
+    <p>Companies lose revenue when customers leave. Predicting churn helps build better retention strategies.</p>
+
+    <h4>📘 Dataset</h4>
+    <p>Telco Customer Churn Dataset.</p>
+
+    <h4>🛠 Techniques Used</h4>
+    <ul>
+      <li>EDA visualizations (correlation, distributions)</li>
+      <li>Feature engineering</li>
+      <li>Logistic Regression / Random Forest</li>
+      <li>Feature importance analysis</li>
+    </ul>
+
+    <h4>📊 Results</h4>
+    <p>Best accuracy: <strong>82%</strong>.</p>
+
+    <h4>💡 What I Learned</h4>
+    <p>Real-world data preprocessing and feature selection for improving classification models.</p>
+
+    <a class="btn btn-primary" href="https://github.com/poojashree16605/customer-churn-analysis" target="_blank">View GitHub</a>
+  </div>
+</div>
+
+<!-- FAKE NEWS MODAL -->
+<div id="modal-fake" class="modal">
+  <div class="modal-content">
+    <span class="modal-close" onclick="closeModal()">✖</span>
+    <h2>Fake News Detection</h2>
+    <p>A Natural Language Processing project to classify news articles as real or fake.</p>
+
+    <h4>🔍 Problem Statement</h4>
+    <p>Fake news spreads quickly and harms public trust. ML can help flag unreliable content.</p>
+
+    <h4>📘 Dataset</h4>
+    <p>Kaggle Fake News Dataset (text-based).</p>
+
+    <h4>🛠 Techniques Used</h4>
+    <ul>
+      <li>Text cleaning and preprocessing</li>
+      <li>TF–IDF vectorization</li>
+      <li>Logistic Regression / Naive Bayes</li>
+      <li>Precision–recall evaluation</li>
+    </ul>
+
+    <h4>📊 Results</h4>
+    <p>Accuracy: <strong>93%</strong>.</p>
+
+    <h4>💡 What I Learned</h4>
+    <p>How to convert text into features, classify documents, and evaluate NLP models.</p>
+
+    <a class="btn btn-primary" href="https://github.com/poojashree16605/fake-news-detection" target="_blank">View GitHub</a>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
