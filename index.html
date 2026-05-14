@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pooja Shree — Data Science Portfolio</title>
+  <title>Pooja Shree | Data Analyst Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,14 +35,12 @@
     <section id="home" class="hero section fade-in">
       <div class="hero-left">
         <h1>Hi, I’m <span class="accent">Pooja Shree</span></h1>
-        <h3 class="subtitle">Data Analyst & AI Student</h3>
+        <h3 class="subtitle">Data Analyst & AI Graduate</h3>
         <p class="lead">
-          Transforming raw data meaningful insights that support informed decision-making.
-I work with data cleaning, feature understanding, and exploratory analysis to uncover patterns and trends.
-I build machine learning models for solving real-world problems in areas like fraud detection and customer behavior.
-My focus is on creating accurate, interpretable, and actionable insights that make a real impact.
-
-
+          AI & Data Science graduate skilled in Power BI, SQL, Python, and Data Analytics.
+Passionate about transforming raw data into meaningful insights through dashboards, visualization, and analytical problem-solving.
+Experienced in building real-world projects across banking, healthcare, and AI job market analytics.
+        
         </p>
 
         <div class="contact-row">
@@ -53,7 +51,7 @@ My focus is on creating accurate, interpretable, and actionable insights that ma
         <div class="hero-ctas">
           <a class="btn btn-primary" href="#projects">View Projects</a>
           <a class="btn btn-ghost" href="#contact">Contact Me</a>
-          <a class="btn btn-resume" href="resume .pdf" download>Download Resume</a>
+          <a class="btn btn-resume" href="Resume.pdf" download>Download Resume</a>
         </div>
 
         <div class="socials">
@@ -73,66 +71,100 @@ My focus is on creating accurate, interpretable, and actionable insights that ma
     <!-- ABOUT (full) -->
     <section id="about" class="about-section fade-in">
     <div class="about-wrapper">
-        <img src="profile.jpg" alt="Pooja Shree" class="about-img">
+        
 
         <div class="about-text">
-            <h2>About Me</h2>
-            <p>
-                I am Pooja Shree, a B.Tech student specializing in Artificial Intelligence
-                and Data Science. I enjoy exploring data, identifying patterns, and transforming 
-                complex information into clear, meaningful insights.
-            </p>
-            <p>
-                My interests include data cleaning, exploratory data analysis (EDA), statistical 
-                understanding, visualization, and building machine learning models for tasks such 
-                as classification and prediction.
-            </p>
-            <p>
-                I aim to solve real-world problems using analytical thinking, structured methods, 
-                and reliable ML techniques. I am continuously improving my skills and pursuing a 
-                career in data analytics and machine learning.
-            </p>
-        </div>
+    <h2>About Me</h2>
+
+    <p>
+        I am Pooja Shree, an AI & Data Science graduate passionate about data analytics,
+        dashboard development, and solving real-world problems using data-driven approaches.
+    </p>
+
+    <p>
+        I work with Power BI, SQL, Python, and Excel to clean, analyze, and visualize data
+        for meaningful business insights. My interests include exploratory data analysis,
+        statistical understanding, and interactive dashboard creation.
+    </p>
+
+    <p>
+        I have built projects across banking, healthcare, and AI job market analytics,
+        focusing on transforming raw data into clear and impactful solutions.
+    </p>
+</div>
     </div>
 </section>
 
-<!-- PROJECTS (with Read More modals) -->
+<!-- PROJECTS -->
 <section id="projects" class="section section-pad fade-in">
   <h2 class="section-title center">Projects</h2>
-  <p class="section-sub muted center">Explore my machine learning and NLP work.</p>
+  <p class="section-sub muted center">
+    Real-world data analytics and healthcare monitoring projects.
+  </p>
 
   <div class="projects-grid">
-    
+
     <!-- PROJECT 1 -->
     <article class="card">
-      <div class="card-icon">💳</div>
-      <h3>Credit Card Fraud Detection</h3>
-      <p class="muted">PCA + XGBoost pipeline to detect fraudulent transactions in imbalanced datasets.</p>
+      <div class="card-icon">📈</div>
+      <h3>AI Jobs Market Intelligence Dashboard</h3>
+      <p class="muted">
+        Power BI dashboard analyzing global AI hiring trends, salary benchmarks,
+        remote work patterns, and demand insights using SQL and Excel.
+      </p>
+
       <div class="card-actions">
-        <button class="btn btn-primary-sm" onclick="openModal('modal-fraud')">Read More</button>
-       
+        <button class="btn btn-primary-sm" onclick="openModal('modal-ai')">
+  View Project
+</button>
       </div>
     </article>
 
     <!-- PROJECT 2 -->
     <article class="card">
-      <div class="card-icon">📊</div>
-      <h3>Customer Churn Analysis</h3>
-      <p class="muted">EDA + ML to identify churn patterns and retention insights.</p>
+      <div class="card-icon">🏧</div>
+      <h3>ATM Cash Usage Analytics Dashboard</h3>
+      <p class="muted">
+        Interactive banking analytics dashboard to monitor ATM usage, transaction
+        volume, withdrawal trends, and operational failures.
+      </p>
+
       <div class="card-actions">
-        <button class="btn btn-primary-sm" onclick="openModal('modal-churn')">Read More</button>
-        
+        <button class="btn btn-primary-sm" onclick="openModal('modal-atm')">
+  View Project
+</button>
       </div>
     </article>
 
     <!-- PROJECT 3 -->
     <article class="card">
-      <div class="card-icon">📰</div>
-      <h3>Fake News Detection</h3>
-      <p class="muted">NLP model using TF–IDF and classifiers to detect fake news.</p>
+      <div class="card-icon">🏥</div>
+      <h3>Hospital Bed & Patient Monitoring Analytics</h3>
+      <p class="muted">
+        Python and Power BI based analytics system to monitor patient vitals,
+        detect abnormal patterns, and visualize healthcare insights.
+      </p>
+
       <div class="card-actions">
-        <button class="btn btn-primary-sm" onclick="openModal('modal-fake')">Read More</button>
-        
+        <button class="btn btn-primary-sm" onclick="openModal('modal-hospital')">
+  View Project
+</button>
+      </div>
+    </article>
+
+    <!-- PROJECT 4 -->
+    <article class="card">
+      <div class="card-icon">💉</div>
+      <h3>IoT-Based IV Fluid Monitoring System</h3>
+      <p class="muted">
+        Final-year healthcare IoT project using ESP32-S3, Firebase, MQTT, and
+        React Native for real-time IV monitoring and patient health tracking.
+      </p>
+
+      <div class="card-actions">
+        <button class="btn btn-primary-sm" onclick="openModal('modal-iot')">
+  View Project
+</button>
       </div>
     </article>
 
@@ -143,33 +175,47 @@ My focus is on creating accurate, interpretable, and actionable insights that ma
     <!-- SKILLS (full) -->
     <section id="skills" class="section section-pad fade-in">
       <h2 class="section-title">Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-col">
-          <h4>Core Skills</h4>
-          <ul>
-            <li>Python programming</li>
-            <li>Machine learning algorithms</li>
-            <li>Exploratory Data Analysis (EDA)</li>
-            <li> model evaluation</li>
-          </ul>
-        </div>
-        <div class="skill-col">
-          <h4>Tools & Libraries</h4>
-          <ul>
-            <li>Pandas, NumPy</li>
-            <li>scikit-learn, TensorFlow</li>
-            <li>Matplotlib, Seaborn</li>
-            <li>SQL (MySQL), GitHub</li>
-          </ul>
-        </div>
-      </div>
+    <div class="skills-grid">
+
+  <div class="skill-col">
+    <h4>Data Analytics</h4>
+    <ul>
+      <li>Power BI Dashboard Development</li>
+      <li>Exploratory Data Analysis</li>
+      <li>Data Cleaning & Visualization</li>
+      <li>Statistical Analysis</li>
+    </ul>
+  </div>
+
+  <div class="skill-col">
+    <h4>Programming & Databases</h4>
+    <ul>
+      <li>Python (Pandas, NumPy)</li>
+      <li>SQL (MySQL)</li>
+      <li>Excel & Power Query</li>
+      <li>Feature Engineering</li>
+    </ul>
+  </div>
+
+  <div class="skill-col">
+    <h4>Tools & Platforms</h4>
+    <ul>
+      <li>Power BI</li>
+      <li>Git & GitHub</li>
+      <li>Jupyter Notebook</li>
+      <li>Google Colab</li>
+    </ul>
+  </div>
+
+</div>
     </section>
 
     <!-- CONTACT (full) -->
     <section id="contact" class="section section-pad fade-in">
       <h2 class="section-title">Contact</h2>
-      <p class="muted">I'd love to hear about projects, internships or collaborations — get in touch.</p>
-
+       <p class="muted center">
+Feel free to connect with me for opportunities, collaborations, or project discussions.
+</p>
       <div class="contact-grid">
         <div class="contact-info">
           <h4>Email</h4>
@@ -182,124 +228,144 @@ My focus is on creating accurate, interpretable, and actionable insights that ma
           </div>
         </div>
 
-        <div class="contact-form-wrap">
-          <form id="contactForm">
-            <input type="text" id="name" placeholder="Your name" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <textarea id="message" rows="6" placeholder="Message" required></textarea>
-            <button class="btn btn-primary" type="submit">Send Message</button>
-          </form>
-        </div>
       </div>
     </section>
 
   </main>
 
   <footer>
-    © 2025 Pooja Shree 
+    © 2025 Pooja Shree • Data Analyst Portfolio
   </footer>
 
   <script src="script.js"></script>
   <!-- MODAL BACKDROP -->
 <div id="modal-backdrop" class="modal-backdrop" onclick="closeModal()"></div>
 
-<!-- FRAUD DETECTION MODAL -->
-<div id="modal-fraud" class="modal">
+<div id="modal-ai" class="modal">
   <div class="modal-content">
+
     <span class="modal-close" onclick="closeModal()">✖</span>
-    <h2>Credit Card Fraud Detection</h2>
-    <p>This project focuses on identifying fraudulent credit card transactions using machine learning.</p>
 
-    <h4>🔍 Problem Statement</h4>
-    <p>Only 0.17% of transactions are fraud — making it a highly imbalanced dataset requiring careful handling.</p>
+    <h2>AI Jobs Market Intelligence Dashboard</h2>
 
-    <h4>📘 Dataset</h4>
-    <p>European Credit Card Transactions Dataset (anonymized).</p>
+    <img src="images/ai-jobs.png" class="project-modal-img">
 
-    <h4>🛠 Techniques Used</h4>
+    <p>
+      Power BI dashboard analyzing global AI hiring trends, salary benchmarks,
+      remote work patterns, and demand insights using SQL and Excel.
+    </p>
+
     <ul>
-      <li>PCA dimensionality reduction</li>
-      <li>XGBoost classifier</li>
-      <li>SMOTE oversampling</li>
-      <li>Confusion matrix & AUC evaluation</li>
+      <li>Analyzed 1500+ AI job postings</li>
+      <li>Built interactive Power BI dashboards</li>
+      <li>Identified remote hiring trends and salary insights</li>
+      <li>Created KPI cards, treemaps, and hiring heatmaps</li>
     </ul>
 
-    <h4>📊 Results</h4>
-    <p>AUC score: <strong>0.97</strong></p>
+    <a class="btn btn-primary" href="https://github.com/poojashree16605/AI-Jobs-Market-Analytics" target="_blank">
+      View GitHub
+    </a>
 
-    <h4>💡 What I Learned</h4>
-    <p>How to handle imbalanced datasets, tune XGBoost, and evaluate models correctly using AUC.</p>
-
-    <a class="btn btn-primary" href="https://github.com/poojashree16605/credit-card-fraud-detection" target="_blank">View GitHub</a>
   </div>
 </div>
 
-<!-- CHURN MODAL -->
-<div id="modal-churn" class="modal">
+<div id="modal-atm" class="modal">
   <div class="modal-content">
+
     <span class="modal-close" onclick="closeModal()">✖</span>
-    <h2>Customer Churn Analysis</h2>
-    <p>This project predicts customer churn using statistical analysis and machine learning.</p>
 
-    <h4>🔍 Problem Statement</h4>
-    <p>Companies lose revenue when customers leave. Predicting churn helps build better retention strategies.</p>
+    <h2>ATM Cash Usage Analytics Dashboard</h2>
 
-    <h4>📘 Dataset</h4>
-    <p>Telco Customer Churn Dataset.</p>
+    <img src="images/atm-dashboard.png" class="project-modal-img">
 
-    <h4>🛠 Techniques Used</h4>
+    <p>
+      Interactive banking analytics dashboard to monitor ATM usage,
+      withdrawal trends, and operational failures.
+    </p>
+
     <ul>
-      <li>EDA visualizations (correlation, distributions)</li>
-      <li>Feature engineering</li>
-      <li>Logistic Regression / Random Forest</li>
-      <li>Feature importance analysis</li>
+      <li>Analyzed 2000+ ATM transactions</li>
+      <li>Tracked ATM activity and transaction failures</li>
+      <li>Created KPI dashboards and trend analysis</li>
+      <li>Identified urban ATM high-failure zones</li>
     </ul>
 
-    <h4>📊 Results</h4>
-    <p>Best accuracy: <strong>82%</strong>.</p>
+    <a class="btn btn-primary" href="https://github.com/poojashree16605/ATM-Cash-Usage-Analytics" target="_blank">
+      View GitHub
+    </a>
 
-    <h4>💡 What I Learned</h4>
-    <p>Real-world data preprocessing and feature selection for improving classification models.</p>
-
-    <a class="btn btn-primary" href="https://github.com/poojashree16605/customer-churn-analysis" target="_blank">View GitHub</a>
   </div>
 </div>
 
-<!-- FAKE NEWS MODAL -->
-<div id="modal-fake" class="modal">
+<div id="modal-hospital" class="modal">
   <div class="modal-content">
+
     <span class="modal-close" onclick="closeModal()">✖</span>
-    <h2>Fake News Detection</h2>
-    <p>A Natural Language Processing project to classify news articles as real or fake.</p>
 
-    <h4>🔍 Problem Statement</h4>
-    <p>Fake news spreads quickly and harms public trust. ML can help flag unreliable content.</p>
+    <h2>Hospital Bed & Patient Monitoring Analytics</h2>
 
-    <h4>📘 Dataset</h4>
-    <p>Kaggle Fake News Dataset (text-based).</p>
+    <img src="images/hospital-dashboard.png" class="project-modal-img">
 
-    <h4>🛠 Techniques Used</h4>
+    <p>
+      Healthcare analytics dashboard for monitoring patient vitals,
+      abnormal patterns, and hospital status insights.
+    </p>
+
     <ul>
-      <li>Text cleaning and preprocessing</li>
-      <li>TF–IDF vectorization</li>
-      <li>Logistic Regression / Naive Bayes</li>
-      <li>Precision–recall evaluation</li>
+      <li>Processed 10,000+ patient records</li>
+      <li>Monitored abnormal SpO₂ and heart rate patterns</li>
+      <li>Built healthcare KPI dashboards</li>
+      <li>Improved patient monitoring visibility</li>
     </ul>
 
-    <h4>📊 Results</h4>
-    <p>Accuracy: <strong>93%</strong>.</p>
+    <a class="btn btn-primary" href="https://github.com/poojashree16605/hospital-patient-monitoring-analytics" target="_blank">
+      View GitHub
+    </a>
 
-    <h4>💡 What I Learned</h4>
-    <p>How to convert text into features, classify documents, and evaluate NLP models.</p>
-
-    <a class="btn btn-primary" href="https://github.com/poojashree16605/fake-news-detection" target="_blank">View GitHub</a>
   </div>
 </div>
+<div id="modal-iot" class="modal">
+  <div class="modal-content">
 
-</body>
-</html>
+    <span class="modal-close" onclick="closeModal()">✖</span>
 
+    <h2>IoT-Based IV Fluid Monitoring System</h2>
 
+    <p>
+      A real-time healthcare IoT system developed for monitoring IV fluid levels
+      and patient health conditions using smart sensors and cloud technologies.
+    </p>
 
+    <h4>🔧 Technologies Used</h4>
 
+    <ul>
+      <li>ESP32-S3 Microcontroller</li>
+      <li>MQTT Protocol</li>
+      <li>Firebase Realtime Database</li>
+      <li>React Native Mobile App</li>
+      <li>MAX30102 Health Sensor</li>
+    </ul>
 
+    <h4>🚀 Key Features</h4>
+
+    <ul>
+      <li>Real-time IV fluid monitoring</li>
+      <li>Live heart rate & SpO₂ tracking</li>
+      <li>Instant critical alert notifications</li>
+      <li>Cloud-based patient monitoring</li>
+      <li>Reduced manual nurse monitoring effort</li>
+    </ul>
+
+    <h4>📈 Project Impact</h4>
+
+    <p>
+      Designed to improve patient safety and reduce healthcare monitoring delays
+      through continuous automated tracking and real-time alerts.
+    </p>
+
+    <a class="btn btn-primary" href="https://github.com/poojashree16605/smart_iv_app" target="_blank">
+      View GitHub
+    </a>
+
+  </div>
+</div>
